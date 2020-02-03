@@ -1,0 +1,118 @@
+.header a, a:hover {
+	color: #f0ad4e;
+	text-decoration: none;
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 350%;
+
+}
+
+.header p {
+
+	color: white ;
+	font-size: 120%;
+	letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #34270;
+}
+ /*Цвет текста активной кнопки Меню */
+
+.navbar-inverse {
+    padding: 10%;
+    border-radius: 10px;
+}
+
+ @media (max-width: 767px)
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 {
+	    font-size: 280%;
+	    letter-spacing: 5px;
+	}
+
+	.header {
+		text-align: left;
+	}
+	/*--Выравнивание header*/
+
+.wrapper {
+	min-height: 100%;
+
+}
+/*Обтекаемый контейнер */
+ html, body {
+	height: 100%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+/* Отступ слева и справа 1% */
+.films_block {
+	text-align: center;
+
+
+}
+
+.films_block img {
+	margin-bottom: 1%;
+	border-radius: 5px;
+	border: solid 5px gray;
+	width: 100%;
+
+
+}
+/*Рамка изображения */
+
+
+
+
+.film_label {
+	padding: 2%;
+	margin-bottom: 4%;
+}
+
+.margin-8 {
+	margin-top: 2%;
+	margin-left: 5px;
+}
+
+/*Панель Контакты*/
+.panel {
+	border:  solid none;
+	  background-color: #34270;
+}
+
+/* Синяя зона Контакты */
+.sidebar-header {
+	font-size: 100%;
+	letter-spacing: 2px;
+	color: #f0ad4e
+}
+/*Цвет Контакты*/
+
+ .table tbody>tr>td.vert-align {
+	vertical-align: middle;
+}
+
+footer {
+	color: #000;
+	background:#999
+	padding: 17px 0 18px 0;
+	border-top: 5px solid blue;
+	border-left: 5px solid blue;
+	border-bottom: 5px solid blue;
+	border-right: 5px solid blue;
+	border-radius: 5px;
+
+
+}
